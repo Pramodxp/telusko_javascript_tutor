@@ -14,6 +14,8 @@ function caller(){
 
 }
 
+
+
 var a= 10; //global variable , are declared at the document level and available all over the document.
 
 caller();
