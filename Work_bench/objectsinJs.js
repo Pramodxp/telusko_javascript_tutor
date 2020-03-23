@@ -35,6 +35,13 @@ function car(car_brand, car_model, price){
     }
 }
 
+//if we want to add any thing extra for the car object like variables. can be added out side
+    car.fueltype="petrol";
+
+    //we can delete the property using the delete keyword
+    delete car.price;
+
+
 // creating objects of cars using 
 
 var car1 = new car("hundai","2019",2000010);
@@ -43,6 +50,7 @@ var car2 = new car("Omini", "1996", 20000);
 document.writeln(car1.car_brand+"</br>");
 document.writeln(car1.car_model+"</br>");
 document.writeln(car1.price+"</br>");
+document.writeln(car.fueltype+"</br>");
 
 car1.teslaAutoPoilet();
 
